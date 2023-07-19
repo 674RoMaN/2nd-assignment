@@ -185,23 +185,23 @@ font-weight: 500;
 }
 .play-text{
     width: 100%;
-    margin-right: 100px;
+    margin-right: 250px;
 }
 .play-img img{
     border-radius: 8px;
     width: 130%;
 }
-.play-img1{
+/* .play-img1{
     position: relative;
     width: 250px;
     bottom: 250px;
     left: 600px;
-}
+} */
 .play-img1{
     position: absolute;
-    width: 350px;
-    bottom: -1590px;
-    left: 900px;
+    width: 250px;
+    bottom: -1390px;
+    left: 780px;
 }
 
 /* game-logos section */
@@ -250,7 +250,7 @@ font-weight: 500;
 
 
 /* footer section */
-/* .footer{
+.footer{
     background-color: #0B0223;
     color: #FFFFFF;
 }
@@ -305,4 +305,4 @@ span{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-}  */
+} 
