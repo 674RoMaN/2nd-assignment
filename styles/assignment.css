@@ -171,6 +171,7 @@ font-weight: 500;
 }
 .play-instantly{
     padding: 70px 0px;
+    margin: 0px 0px 70px 0px;
 }
 .play-text-header{
     text-align: right;
@@ -185,23 +186,58 @@ font-weight: 500;
 }
 .play-text{
     width: 100%;
-    margin-right: 250px;
+    margin-right: 150px;
+    margin-left: 100px;
 }
 .play-img img{
     border-radius: 8px;
     width: 130%;
 }
-/* .play-img1{
-    position: relative;
-    width: 250px;
-    bottom: 250px;
-    left: 600px;
-} */
 .play-img1{
     position: absolute;
     width: 250px;
     bottom: -1390px;
     left: 780px;
+}
+/* Play instantly1 */
+.play1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 60px;
+    margin: 00px 130px;
+}
+.play-instantly1{
+    padding: 70px 0px;
+    margin-bottom: 200px;
+}
+.play-text-header1{
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.play-text-description1{
+    color: #534C64;
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.play-text1{
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.play-img11 img{
+    border-radius: 8px;
+    width: 130%;
+    margin-right: 100px;
+}
+.play-img111{
+    position: absolute;
+    width: 250px;
+    bottom: -1990px;
+    left: 380px;
 }
 
 /* game-logos section */
