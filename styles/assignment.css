@@ -17,13 +17,15 @@ nav{
     margin-left: 240px;
 }
 nav img{
-    width: 86px;
+    width: 80px;
     height: 40px;
 }
 .nav-texts, .nav-texts ul{
     display: flex;
+    justify-content: center;
     gap: 30px;
     list-style: none;
+    padding-left:0px;
 }
 .nav-texts{
     margin-right: 240px;
@@ -33,31 +35,40 @@ nav img{
 }
 .button{
     text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     color: #3C354F;
-    font-weight: 500;
+
     width: 200px;
     height: 56px;
 }
 /* banner section */
+
 .banner{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+.banner-img img{
+    width: 700px;
+    height: 700px;
+    margin-right: 240px;
 }
 .banner-text{
     text-align: left;
     background-image: url(../images/Group14.png);
-    width: 720px;
-    height: 682px;
+    width: 901px;
+    height: 700px;
+    flex-shrink: 0;
 }
 .banner-text h2{
     color: #0B0223;
     text-align: center;
     font-size: 2.8rem;
     font-weight: 600;
-    margin-top: 148px;
+    margin-top: 180px;
     margin-bottom: 0px;
 }
 .banner-text h1{
@@ -86,7 +97,7 @@ font-weight: 500;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     border: 0px;
     padding: 21px 40px;
-    margin-left: 140px;
+    margin-left: 280px;
     margin-right: 20px;
 }
 .button2{
@@ -101,14 +112,14 @@ font-weight: 500;
 
 /* long-section */
 .long-section{
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    /* background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%); */
+    background: #FFF;
 }
 /* online games section */
 
 .online-games{
-    padding: 50px 0px;
+    padding: 100px 0px;
     margin: 0px 0px;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .online-games-header{
@@ -134,19 +145,61 @@ font-weight: 500;
 .online-games-img{
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 0px;
     border-radius: 18px;
     padding-top: 30px;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 240px;
+    margin-right: 240px;
 }
 .online-games-img div{
     text-align: left;
 
 }
 .online-games-img div img, .online-games-img div p{
-    width: 230px;
+    width: 350px;
 }
+/* Play instantly */
+.play{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 00px 130px;
+}
+.play-instantly{
+    padding: 50px 0px;
+}
+.play-text-header{
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.play-text-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 350px;
+}
+.play-text{
+    width: 350px;
+}
+.play-img img{
+    border-radius: 8px;
+    width: 400px;
+}
+/* .play-img1{
+    position: relative;
+    width: 250px;
+    bottom: 250px;
+    left: 600px;
+} */
+.play-img1{
+    position: absolute;
+    width: 250px;
+    bottom: -1330px;
+    left: 600px;
+}
+
 /* game-logos section */
 .game-logos{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -191,48 +244,7 @@ font-weight: 500;
     gap: 15px;
 }
 
-/* Play instantly */
-.play{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 00px 130px;
-}
-.play-instantly{
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    padding: 50px 0px;
-}
-.play-text-header{
-    text-align: right;
-    font-size: 3rem;
-    font-weight: 700;
-}
-.play-text-description{
-    color: #534C64;
-    text-align: right;
-    font-size: 1.25rem;
-    font-weight: 400;
-    width: 350px;
-}
-.play-text{
-    width: 350px;
-}
-.play-img img{
-    border-radius: 8px;
-    width: 400px;
-}
-/* .play-img1{
-    position: relative;
-    width: 250px;
-    bottom: 250px;
-    left: 600px;
-} */
-.play-img1{
-    position: absolute;
-    width: 250px;
-    bottom: -1330px;
-    left: 600px;
-}
+
 /* footer section */
 .footer{
     background-color: #0B0223;
