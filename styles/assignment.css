@@ -52,27 +52,29 @@ nav img{
     align-items: center;
 }
 .banner-img img{
-    width: 700px;
-    height: 700px;
-    margin-right: 240px;
+    width: 100%;
 }
 .banner-text{
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
     background-image: url(../images/Group14.png);
-    width: 901px;
-    height: 700px;
+    background-repeat: no-repeat;
     flex-shrink: 0;
+    background-size: 100%;
+    padding: 100px 200px;
 }
+
 .banner-text h2{
     color: #0B0223;
-    text-align: center;
+    text-align: left;
     font-size: 2.8rem;
     font-weight: 600;
-    margin-top: 180px;
     margin-bottom: 0px;
 }
 .banner-text h1{
-    text-align: center;
+    text-align: left;
     font-size: 5.93rem;
     font-weight: 800;
     padding: 0px;
@@ -85,11 +87,12 @@ nav img{
 }
 .banner-text p{
 color: #534C64;
-text-align: center;
+text-align: left;
 font-size: 1.25rem;
 font-weight: 500;
 }
 .button1{
+    text-align: left;
     color: #FFF;
     font-size: 1.25rem;
     font-weight: 600;
@@ -97,7 +100,6 @@ font-weight: 500;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     border: 0px;
     padding: 21px 40px;
-    margin-left: 280px;
     margin-right: 20px;
 }
 .button2{
@@ -112,7 +114,6 @@ font-weight: 500;
 
 /* long-section */
 .long-section{
-    /* background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%); */
     background: #FFF;
 }
 /* online games section */
@@ -145,28 +146,31 @@ font-weight: 500;
 .online-games-img{
     display: flex;
     justify-content: space-between;
-    gap: 0px;
+    gap: 10px;
     border-radius: 18px;
     padding-top: 30px;
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 180px;
+    margin-right: 180px;
 }
 .online-games-img div{
     text-align: left;
 
 }
 .online-games-img div img, .online-games-img div p{
-    width: 350px;
+    width: 250px;
+}
+.img3 :hover{
+
 }
 /* Play instantly */
-.play{
+/* .play{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 00px 130px;
 }
 .play-instantly{
-    padding: 50px 0px;
+    padding: 100px 0px;
 }
 .play-text-header{
     text-align: right;
@@ -178,30 +182,29 @@ font-weight: 500;
     text-align: right;
     font-size: 1.25rem;
     font-weight: 400;
-    width: 350px;
 }
 .play-text{
-    width: 350px;
+    width: 500px;
 }
 .play-img img{
     border-radius: 8px;
-    width: 400px;
-}
+    width: 700px;
+} */
 /* .play-img1{
     position: relative;
     width: 250px;
     bottom: 250px;
     left: 600px;
 } */
-.play-img1{
+/* .play-img1{
     position: absolute;
-    width: 250px;
-    bottom: -1330px;
-    left: 600px;
-}
+    width: 350px;
+    bottom: -1590px;
+    left: 900px;
+} */
 
 /* game-logos section */
-.game-logos{
+/* .game-logos{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 50px;
 }
@@ -225,11 +228,11 @@ font-weight: 500;
 .img1:hover, .game-logos-img2 div:hover{
     border: 1px solid pink;
     color: pink;
-}
+} */
 /* .game-logos-img1 p:hover, .game-logos-img2 p:hover{
 
 } */
-.game-logos-img1 div img, .game-logos-img2 div img{
+/* .game-logos-img1 div img, .game-logos-img2 div img{
     width: 40px ;
     margin-right: 15px;
 }
@@ -242,11 +245,11 @@ font-weight: 500;
     display: flex;
     justify-content: space-between;
     gap: 15px;
-}
+} */
 
 
 /* footer section */
-.footer{
+/* .footer{
     background-color: #0B0223;
     color: #FFFFFF;
 }
@@ -301,4 +304,4 @@ span{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-}
+}  */
