@@ -338,7 +338,6 @@ span{
     padding: 10px;
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    padding-bottom: 100px;
 } 
