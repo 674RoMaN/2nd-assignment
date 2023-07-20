@@ -172,7 +172,7 @@ font-weight: 500;
     transition: background-color 0.3s;
     border-radius: 18px;
 }
-.hovertext, .hover1>i {
+.hovertext, .hovericon {
     display: inline-block;
     opacity: 0;
     transition: opacity 0.3s;
@@ -180,7 +180,7 @@ font-weight: 500;
 .hover1:hover {
     background-color: #a39c9ce3;
   }
-.hover1:hover .hovertext, .hover:hover .hover1>i{
+.hover1:hover .hovertext, .hover:hover .hovericon{
     opacity: 1;
     color: #0B0223;
 }
