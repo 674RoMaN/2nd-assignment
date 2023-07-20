@@ -5,7 +5,7 @@ body{
 nav{
     display: flex;
     align-items: center;
-    gap: 390px;
+    gap: 400px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
@@ -14,7 +14,7 @@ nav{
     justify-content:left;
     align-items: center;
     gap: 20px;
-    margin-left: 240px;
+    margin-left: 100px;
 }
 nav img{
     width: 80px;
@@ -28,7 +28,7 @@ nav img{
     padding-left:0px;
 }
 .nav-texts{
-    margin-right: 240px;
+    margin-right: 100px;
     justify-content: right;
     color: #3C354F;
     font-weight: 500;
@@ -210,7 +210,7 @@ font-weight: 500;
 }
 .play-instantly1{
     padding: 70px 0px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .play-text-header1{
     text-align: left;
@@ -241,48 +241,49 @@ font-weight: 500;
 }
 
 /* game-logos section */
-/* .game-logos{
+
+.game-logos{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    padding: 50px;
-}
-.game-logos-img1{
-    margin: 0px 130px;
-}
-.game-logos-img2{
-    margin: 0px 160px;
-}
-.game-logos-img1 >div{
-    margin: 50px 0px;
-}
-.game-logos-img2 >div{
-    margin-bottom: 50px;
 }
 .game-logos-img1 div,.game-logos-img2 div{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     border-radius: 50px;
     background: #FFF;
 }
-.img1:hover, .game-logos-img2 div:hover{
+/* .img1:hover, .game-logos-img2 div:hover{
     border: 1px solid pink;
-    color: pink;
+    color: pink; 
 } */
+.game-logos-img1 div:hover,.game-logos-img2 div:hover{
+    border: 1px solid #FF42A5;
+}
+.game-logos-img1 p:hover,.game-logos-img2 p:hover{
+    color: #FF42A5;
+}
 /* .game-logos-img1 p:hover, .game-logos-img2 p:hover{
-
+    color: pink; 
 } */
-/* .game-logos-img1 div img, .game-logos-img2 div img{
+.game-logos-img1 div img, .game-logos-img2 div img{
     width: 40px ;
-    margin-right: 15px;
 }
 .game-logos-img1 p, .game-logos-img2 p{
     color: #0B0223;
-    font-size:1.25rem;
     font-weight: 600;
 }
-.game-logos-img1, .game-logos-img2{
-    display: flex;
-    justify-content: space-between;
+.game-logos-img1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    padding: 70px 150px 30px 150px;
+}
+.game-logos-img2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     gap: 15px;
-} */
+    padding: 0px 220px 50px 220px;
+}
 
 
 /* footer section */
