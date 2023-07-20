@@ -252,19 +252,14 @@ font-weight: 500;
     border-radius: 50px;
     background: #FFF;
 }
-/* .img1:hover, .game-logos-img2 div:hover{
-    border: 1px solid pink;
-    color: pink; 
-} */
+
 .game-logos-img1 div:hover,.game-logos-img2 div:hover{
     border: 1px solid #FF42A5;
 }
 .game-logos-img1 p:hover,.game-logos-img2 p:hover{
     color: #FF42A5;
 }
-/* .game-logos-img1 p:hover, .game-logos-img2 p:hover{
-    color: pink; 
-} */
+
 .game-logos-img1 div img, .game-logos-img2 div img{
     width: 40px ;
 }
