@@ -361,3 +361,7 @@ span{
     font-weight: 500;
     padding-bottom: 100px;
 } 
+/* media screen */
+@media screen and (max-width:576px){
+    
+}
