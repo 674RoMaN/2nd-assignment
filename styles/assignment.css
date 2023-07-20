@@ -160,9 +160,29 @@ font-weight: 500;
 .online-games-img div img, .online-games-img div p{
     width: 250px;
 }
-.img3:hover{
-    border: 1px solid gray;
-    background: gray;
+.hover1{
+    position: absolute;
+    width: 250px;
+    height: 292px;
+    top: 1010px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+    border-radius: 18px;
+}
+.hovertext, .hover1>i {
+    display: inline-block;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+.hover1:hover {
+    background-color: #a39c9ce3;
+  }
+.hover1:hover .hovertext, .hover:hover .hover1>i{
+    opacity: 1;
+    color: #0B0223;
 }
 
 /* Play instantly */
