@@ -1,5 +1,6 @@
 body{
     font-family: 'Work Sans', sans-serif;
+    margin: none;
 }
 /* header section */
 nav{
@@ -155,10 +156,13 @@ font-weight: 500;
 }
 .online-games-img div{
     text-align: left;
-
 }
 .online-games-img div img, .online-games-img div p{
     width: 250px;
+}
+.img3:hover{
+    border: 1px solid gray;
+    background: gray;
 }
 
 /* Play instantly */
